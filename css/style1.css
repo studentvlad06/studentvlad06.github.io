@@ -1,0 +1,668 @@
+
+.box1{
+	width: 1000px;
+	height: 900px;
+	border: 1px solid grey;
+	position: relative;
+	top: 0px;
+	left: 200px;
+	z-index: 2;
+}
+
+.house1{
+	background: turquoise;
+	width: 1000px;
+	height: 15px;
+	position: absolute;
+	top: 500px;
+	left: 0px;
+}
+.house2{
+	background: turquoise;
+	width: 60px;
+	height: 170px;
+	position: absolute;
+	top: 350px;
+	left: 400px;
+}
+.house3{
+	background: turquoise;
+	width: 45px;
+	height: 160px;
+	position: absolute;
+	top: 350px;
+	left: 400px;
+}
+.house4{
+	background: turquoise;
+	width: 60px;
+	height: 20px;
+	position: absolute;
+	top: 325px;
+	left: 400px;
+}
+.house5{
+	background: turquoise;
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	top: 300px;
+	left: 410px;
+}
+.house6{
+	background: turquoise;
+	width: 25px;
+	height: 20px;
+	position: absolute;
+	top: 275px;
+	left: 417px;
+}
+.wind1{
+	width: 15px;
+	height: 15px;
+	background: white;
+	position: absolute;
+	top: 360px;
+	left: 405px;
+}
+.wind2{
+	width: 15px;
+	height: 15px;
+	background: white;
+	position: absolute;
+	top: 380px;
+	left: 405px;
+}
+.wind3{
+	width: 15px;
+	height: 15px;
+	background: white;
+	position: absolute;
+	top: 400px;
+	left: 405px;
+}
+.wind4{
+	width: 15px;
+	height: 15px;
+	background: white;
+	position: absolute;
+	top: 420px;
+	left: 405px;
+}
+.wind5{
+	width: 15px;
+	height: 15px;
+	background: white;
+	position: absolute;
+	top: 360px;
+	left: 440px;
+}
+.wind6{
+	width: 15px;
+	height: 15px;
+	background: white;
+	position: absolute;
+	top: 380px;
+	left: 440px;
+}
+.wind7{
+	width: 15px;
+	height: 15px;
+	background: white;
+	position: absolute;
+	top: 400px;
+	left: 440px;
+}
+.home1{
+	width: 100px;
+	height: 150px;
+	background: turquoise;
+	position: absolute;
+	top: 370px;
+	left: 470px;
+}
+.home2{
+	width: 100px;
+	height: 25px;
+	background: turquoise;
+	position: absolute;
+	top: 340px;
+	left: 470px;
+}
+.home3{
+	width: 20px;
+	height: 120px;
+	background: white;
+	position: absolute;
+	top: 380px;
+	left: 525px;
+}
+.home4{
+	width: 20px;
+	height: 20px;
+	background: white;
+	position: absolute;
+	top: 390px;
+	left: 490px;
+}
+.home5{
+	width: 20px;
+	height: 20px;
+	background: white;
+	position: absolute;
+	top: 420px;
+	left: 490px;
+}
+.home6{
+	width: 20px;
+	height: 20px;
+	background: white;
+	position: absolute;
+	top: 450px;
+	left: 490px;
+}
+.home7{
+	border-bottom: 25px solid turquoise;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	height: 0;
+	width:25px; 
+	transform: rotate(180deg);
+	position: absolute;
+	top: 475px;
+	left: 580px;
+}
+.home8{
+	width: 100px;
+	height: 150px;
+	background: turquoise;
+	position: absolute;
+	top: 370px;
+	left: 630px;
+}
+.home9{
+	width: 20px;
+	height: 70px;
+	background: white;
+	position: absolute;
+	top: 390px;
+	left: 640px;
+}
+.home10{
+	width: 20px;
+	height: 70px;
+	background: white;
+	position: absolute;
+	top: 390px;
+	left: 670px;
+}
+.home11{
+	width: 10px;
+	height: 80px;
+	background: turquoise;
+	position: absolute;
+	top: 300px;
+	left: 670px;
+}
+
+.cloud1{
+	width: 60px;
+	height: 25px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 100px;
+	left: 395px;	
+}
+.cloud2{
+	width: 25px;
+	height: 50px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 90px;
+	left: 405px;	
+}
+.cloud3{
+	width: 25px;
+	height: 50px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 90px;
+	left: 420px;	
+}
+.cloud4{
+	width: 25px;
+	height: 50px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 90px;
+	left: 420px;	
+}
+
+.cloud5{
+	width: 25px;
+	height: 50px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 90px;
+	left: 805px;	
+}
+.cloud10{
+	width: 60px;
+	height: 25px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 100px;
+	left: 795px;	
+}
+.cloud6{
+	width: 25px;
+	height: 50px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 100px;
+	left: 160px;	
+}
+.cloud7{
+	width: 25px;
+	height: 50px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 90px;
+	left: 820px;	
+}
+.cloud8{
+	width: 25px;
+	height: 50px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 100px;
+	left: 180px;	
+}
+.cloud9{
+	width: 60px;
+	height: 25px;
+	background: turquoise;
+	border-radius: 100px;
+	position: absolute;
+	top: 110px;
+	left: 155px;	
+}
+.browntree1{	
+	width: 0;
+	height: 0;
+	border:10px solid transparent;
+	border-bottom: 80px solid brown;
+	position: absolute;
+	top: 410px;
+	left: 340px;
+   }
+.grentree1{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background: green;
+	position: absolute;
+	top: 390px;
+	left: 320px;
+}
+.browntree2{	
+	width: 0;
+	height: 0;
+	border:10px solid transparent;
+	border-bottom: 80px solid brown;
+	position: absolute;
+	top: 410px;
+	left: 750px;
+   }
+.grentree2{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background: green;
+	position: absolute;
+	top: 390px;
+	left: 740px;
+}
+.hata1{
+	width:90px;
+	height: 90px;
+	background: turquoise;
+	position: absolute;
+	top: 410px;
+	left: 220px;
+}
+.hata2{
+	width:20px;
+	height: 60px;
+	background: white;
+	position: absolute;
+	top: 430px;
+	left: 230px;
+}
+.hata3{
+	width:20px;
+	height: 60px;
+	background: white;
+	position: absolute;
+	top: 430px;
+	left: 260px;
+}
+.hata4{
+	width: 150px;
+	height: 150px;
+	background: turquoise;
+	position: absolute;
+	top:375px;
+	left:820px;
+
+}
+.hata5{
+	width: 120px;
+	height: 30px;
+	background: turquoise;
+	position: absolute;
+	top:340px;
+	left:833px;
+
+}
+.hata6{
+	width: 80px;
+	height: 30px;
+	background: turquoise;
+	position: absolute;
+	top:305px;
+	left:850px;
+
+}
+.hata7{
+	width: 10px;
+	height: 40px;
+	background: turquoise;
+	position: absolute;
+	top:260px;
+	left:885px;
+}
+.lamp{
+	width: 30px;
+	height: 30px;
+	background: yellow;
+	border-radius: 100%;
+	position: absolute;
+	top: 247px;
+	left: 877px;
+	animation-name: lamp; 
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: 300;
+} 
+@keyframes lamp{
+   0%{opacity: 1;}
+   12%{opacity: 0.7;}
+   24%{opacity: 0.5;}
+   36%{opacity: 0.2;}
+   48%{opacity: 0;}
+   60%{opacity: 0.2;}
+   72%{opacity: 0.5;}
+   84%{opacity: 0.7;}
+   100%{opacity: 1;}
+
+} 
+
+}
+.hata9{
+	width: 100px;
+	height: 10px;
+	background: white;
+	position: absolute;
+	top:350px;
+	left:840px;
+
+}
+.hata10{
+	width: 50px;
+	height: 50px;
+	background: white;
+	position: absolute;
+	top:390px;
+	left:830px;
+
+}
+.hata11{
+	width: 50px;
+	height: 50px;
+	background: white;
+	position: absolute;
+	top:390px;
+	left:905px;
+
+}
+
+.hata12{
+	width: 60px;
+	height: 20px;
+	background: white;
+	position: absolute;
+	top:310px;
+	left:861px;
+}
+.colo1{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: yellow;
+	position: absolute;
+	top: 410px;
+	left: 170px;
+}
+.colo10{
+	width: 20px;
+	height:20px;
+	border-radius: 100%;
+	background: black;
+	position: absolute;
+	top: 420px;
+	left: 180px;
+}
+.colo2{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: yellow;
+	position: absolute;
+	top: 400px;
+	left: 140px;
+}
+.colo9{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background: black;
+	position: absolute;
+	top: 410px;
+	left: 140px;
+}
+.colo3{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: yellow;
+	position: absolute;
+	top: 400px;
+	left: 110px;
+}
+.colo8{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background: black;
+	position: absolute;
+	top: 410px;
+	left: 110px;
+}
+.colo4{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: yellow;
+	position: absolute;
+	top: 380px;
+	left: 70px;
+}
+.colo7{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background: black;
+	position: absolute;
+	top: 390px;
+	left: 80px;
+}
+.colo5{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: yellow;
+	position: absolute;
+	top: 380px;
+	left: 50px;
+}
+.colo6{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background: black;
+	position: absolute;
+	top: 390px;
+	left: 50px;
+}
+.colo11{
+	width: 0;
+	height: 0;
+	border:10px solid transparent;
+	border-bottom: 110px solid brown;
+	position: absolute;
+	top: 400px;
+	left: 170px;
+}
+.colo12{
+	width: 0;
+	height: 0;
+	border:10px solid transparent;
+	border-bottom: 110px solid brown;
+	position: absolute;
+	top: 390px;
+	left: 140px;
+}
+.colo13{
+	width: 0;
+	height: 0;
+	border:10px solid transparent;
+	border-bottom: 90px solid brown;
+	position: absolute;
+	top: 410px;
+	left: 110px;
+}
+.colo14{
+	width: 0;
+	height: 0;
+	border:10px solid transparent;
+	border-bottom: 90px solid brown;
+	position: absolute;
+	top: 410px;
+	left: 80px;
+}
+.colo15{
+	width: 0;
+	height: 0;
+	border:10px solid transparent;
+	border-bottom: 110px solid brown;
+	position: absolute;
+	top: 400px;
+	left: 50px;
+}
+.box{
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    border:1px solid grey;
+}
+body{
+    background: lightgrey;
+}
+
+.car1{
+    position: absolute;
+    top:435px;
+    left:1500px;
+    width: 64px;
+    height: 64px;
+  
+    background: url(https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/car-icon-256.png);
+  background-size:cover;
+    animation-name: car1;
+    animation-duration: 5s;
+    animation-timing-function:  linear;
+    animation-iteration-count:1;
+}
+@keyframes car1{
+    0%{
+    position: absolute;
+    top:435px;
+    left:0; 
+    }
+    50%{
+    position: absolute;
+    top:435px;
+    left:500px;    
+    }
+    100%{
+    position: absolute;
+    top:435px;
+    left:1500px; 
+    }
+}
+.car2{
+    position: absolute;
+    top:455px;
+    right:1500px;
+    width: 64px;
+    height: 64px;
+    background: url(https://image.flaticon.com/icons/svg/744/744465.svg);
+    animation-name: car2;
+    animation-duration: 5s;
+    animation-timing-function:  linear;
+    animation-iteration-count:1;
+    animation-delay: 4s;
+}
+
+@keyframes car2{
+    0%{
+    position: absolute;
+    top:455px;
+    right:0; 
+    }
+    50%{
+    position: absolute;
+    top:455px;
+    right:500px;    
+    }
+    100%{
+    position: absolute;
+    top:455px;
+    right:1500px;
+    @import url(https://fonts.googleapis.com/css?family=Ranga:400,700);
+ {
+ 	} 
+
+} 
+
